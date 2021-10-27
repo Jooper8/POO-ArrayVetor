@@ -29,7 +29,8 @@ namespace POO_ArrayVetor
             }
             //Cálculo da média das alturas.
             average = sum / n;
-            Console.WriteLine("A média das alturas inseridas é: {0}.", average);
+            //Exposição da média ao usuário.
+            Console.WriteLine("A média das alturas inseridas é: {0}.", average.ToString("F2", CultureInfo.InvariantCulture));
         }
     }
 }
